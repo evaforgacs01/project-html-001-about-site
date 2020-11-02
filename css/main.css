@@ -106,3 +106,35 @@ margin-bottom: 2em;
 .gallery-container img {
     width: 30%;
     margin: 1%; }}
+
+
+    /* form */
+
+    .form-div {
+        text-align: left;
+         
+     }
+     .form-div button {
+    
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5px 15px;
+        border-radius: 3px;
+        background-color: blue;
+        color: whitesmoke;
+   
+     }
+     
+     .form-group {
+         padding: 0.5em 1em;
+   
+   
+     }
+     .form-control {
+         display: block;
+         margin: 0.5rem 0;
+         border:solid 2px blue ;
+         border-radius: 3px;
+         box-shadow: 0 0 3px cornflowerblue;
+         font-size: 1.2rem;
+         padding: 3px 0;}
