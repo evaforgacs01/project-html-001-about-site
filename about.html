@@ -5,100 +5,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bemutatkozó oldal</title>
-    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 
-<body class="is-preload">
+<body>
 
-    <header id="header">
+    <header>
         <h3>Rólam</h3>
-
-
-
-        <nav>
-            <a class="logo" href="/index.html"></a>
-            <a href="index.html">Home</a>
-            <a href="works.html">Works</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="about.html">About</a>
-        </nav>
-
     </header>
 
-    <main class="wrapper">
-        <section class="inner">
-            <p>
+
+    <nav id="main-nav">
+        <ul>
+
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/works.html">Munkáim</a></li>
+            <li><a href="/gallery.html">Képgaléria</a></li>
+            <li><a href="/about.html">Rólam</a></li>
+
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <section>
+            <aside class="side-image">
+                <img src="/images/img6.jpg" alt="About">
+            </aside>
+
+            <article>
                 Eddig pénzügyesként tengettem napjaimat, de az
                 élet túl rövid ahhoz, hogy ne lépj ki a komfort zónádból és
                 kezdj bele valami teljesen újba. Ez most jött el. Mindig is érdekelt a programozás,
                 de csak most jutott el addig,
                 hogy el is kezdjek vele foglalkozni. Az Újratervezés Program jó alkalmat adott erre.
                 Teljesen az alapokról kezdtem és most itt tartok.
-            </p>
-            <div class="image">
-                <img style=" width: 680px; height: 480px " src="images/img1.jpg">
-            </div>
+                <h4>Erősségeim:</h4>
+                <ul class="plain">
+                    <li>Kitartó vagyok</li>
+                    <li>Türelmes</li>
+                    <li>Szorgalmas :)</li>
+                    <li>Rugalmas</li>
+                </ul>
+                <p>
 
+                </p>
+                <h4>Hobbik:</h4>
+                <ul class="plain">
+                    <li>Futás</li>
+                    <li>Utazás</li>
+                    <li>Kirándulás</li>
+                    <li>Jó éttermek kipróbálása</li>
+                    <li>És most már a webfejlesztés :)</li>
+                </ul>
 
-            <h4>Erősségeim:</h4>
-            <ul class="plain">
-                <li>Kitartó vagyok</li>
-                <li>Türelmes</li>
-                <li>Szorgalmas :)</li>
-                <li>Rugalmas</li>
-            </ul>
-
-            <h4>Hobbik:</h4>
-            <ul class="plain">
-                <li>Futás</li>
-                <li>Utazás</li>
-                <li>Kirándulás</li>
-                <li>Jó éttermek kipróbálása</li>
-                <li>És most már a webfejlesztés :)</li>
-            </ul>
-
-            <h4>Nyelvtudás</h4>
-
-            <ol class="plain">
-                <li>Angol középfok</li>
-                <li>Német középfok(de már elfelejtettem)</li>
-            </ol>
-
-
+                <h4>Nyelvtudás</h4>
+                <ol class="plain">
+                    <li>Angol középfok</li>
+                    <li>Német középfok(de már elfelejtettem)</li>
+                </ol>
+            </article>
         </section>
+        <section>
+            <form action="Üzenet" class="message-form">
+                <div class="form-group">
+                    <label for="name">Név</label>
+                    <input type="text" min="5" minlength="5" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Üzenet</label>
+                    <textarea type="text" min="20" minlength="20" class="form-control" required>
+                    </textarea>
+                </div>
+                <button type="submit">
+                    Küldés
+                </button>
 
+            </form>
+        </section>
     </main>
 
 
-    <div class="container">
-        <form action="action_page.php">
+    <footer>
 
-            <label for="name">Név</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name.." pattern=" {5,}"
-                title="Must contain at least 5 or more characters" required>
-
-            <label for="email"><b>Email cím</b></label>
-            <input type="text" placeholder="Enter Email" inputmode="email" name="email" id="email" pattern="{ @,}"
-                title="Must contain @" required>
-
-            <label for="subject">Üzenet</label>
-            <textarea id="subject" name="subject" placeholder="Ide írhatod az üzeteted.." style="height:200px"
-                pattern="{ 20,}" title="Must contain at least 20 or more characters"> </textarea>
-
-            <input type="submit" value="Submit">
-
-        </form>
-    </div>
-
-    <footer id="footer">
-
-        <nav>
-            <a class="logo" href="/index.html"></a>
-            <a #header href="index.html">Home</a>
-
-        </nav>
+        <a href="#main-nav">Oldal tetejére</a>
     </footer>
+
 
 </body>
 
