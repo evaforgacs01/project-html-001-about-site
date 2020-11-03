@@ -1,13 +1,13 @@
 
-@import url(font-awesome.min.css);
+/* @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
-/*
-	Industrious by TEMPLATED
+/* */
+	/* Industrious by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 /* Basic */
-@-ms-viewport {
+/* @-ms-viewport {
   width: device-width; }
 body {
   -ms-overflow-style: scrollbar; }
@@ -49,9 +49,9 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline; } */
 
-article, aside, details, figcaption, figure,
+/* article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
@@ -86,9 +86,9 @@ input, select, textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
-  appearance: none; }
+  appearance: none; } */
 
-/* Typography */
+/* Typography
 html {
   font-size: 13pt; }
   @media screen and (max-width: 1680px) {
@@ -242,15 +242,15 @@ hr {
   border-bottom-color: rgba(0, 0, 0, 0.25); }
 
 /* Inner */
-.inner {
+/* .inner {
   margin: 0 auto;
   width: 75rem;
   max-width: calc(100% - 6rem); }
   @media screen and (max-width: 480px) {
     .inner {
-      max-width: calc(100% - 3rem); } }
+      max-width: calc(100% - 3rem); } } */
 
-/* Button */
+/* Button
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -367,7 +367,7 @@ button,
         background-color: #b71824; }
 
 /* Form */
-form {
+/* form {
   margin: 0 0 2rem 0; }
 
 input[type="text"],
@@ -555,7 +555,7 @@ input[type="radio"]:focus + label:before {
   color: #bbbbbb !important; }
 
 /* List */
-ol {
+/* ol {
   list-style: decimal;
   margin: 0 0 2rem 0;
   padding-left: 1.25rem; }
@@ -605,10 +605,10 @@ dl {
     margin-left: 1.5rem; }
 
 ul.alt li {
-  border-top-color: rgba(0, 0, 0, 0.25); }
+  border-top-color: rgba(0, 0, 0, 0.25); } */
 
 /* Table */
-.table-wrapper {
+/* .table-wrapper {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto; }
 
@@ -656,10 +656,10 @@ table thead {
 table tfoot {
   border-top-color: rgba(0, 0, 0, 0.25); }
 table.alt tbody tr td {
-  border-color: rgba(0, 0, 0, 0.25); }
+  border-color: rgba(0, 0, 0, 0.25); } */
 
 /* Highlights */
-.highlights {
+/* .highlights {
   width: 100%;
   margin: 2.5rem 0;
   display: -moz-flex;
@@ -753,7 +753,7 @@ table.alt tbody tr td {
     .highlights > :nth-last-child(-n + 3) {
       padding-bottom: 1rem; }
     .highlights > :nth-child(3n + 1) {
-      padding-left: 1rem; }
+      padding-left: 1rem; } */
     .highlights > :nth-child(3n) {
       padding-right: 1rem; }
     .highlights > :nth-child(3n + 1),
@@ -792,10 +792,10 @@ table.alt tbody tr td {
 
 .highlights .content {
   background: #ffffff;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); } */
 
 /* Testimonials */
-.testimonials {
+/* .testimonials {
   margin: 2.5rem 0;
   width: 100%;
   display: -moz-flex;
@@ -948,7 +948,7 @@ table.alt tbody tr td {
   background: #ffffff;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
   .testimonials .content .credit strong {
-    color: #ce1b28; }
+    color: #ce1b28; } */
 
 /* Actions */
 ul.actions {
@@ -2836,4 +2836,4 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
 
-
+ */ */ */

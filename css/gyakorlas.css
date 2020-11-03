@@ -1,0 +1,174 @@
+/* /* .static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21 ;
+     ;
+    
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+border: 3px solid #73AD21;
+
+
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: seagreen;
+    border: 3px solid #73AD21;
+} */
+
+/* 
+p {
+    font-size: 16px;
+    line-height: 2em;
+
+}
+div{
+    font-size: 30px;
+    border: 1px solid black;
+width: 33vw;
+height: 20vh;
+}
+
+span {
+    font-size: 0.5em;
+}
+ */
+
+ /* .tgl {
+     display: none;
+
+ }
+
+ .tgl, .tgl:after, .tgl *, .tgl * :after, .tgl + .tgl-btn {
+     box-sizing: border-box;
+
+ }
+.tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.tgl + .tgl-btn:after {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+    
+}
+.tgl + .tgl-btn:after {
+    left: 0;
+
+}
+.tgl:checked + .tgl-btn::after{
+    left: 50%;
+
+}
+.tgl-btn {
+    background-color: brown;
+    border-radius: 2em;
+    padding: 2px;
+
+}
+.tgl +.tgl-btn:after {
+    border-radius: 50%;
+    background-color: rgb(168, 159, 120);
+
+}
+.tgl:checked + .tgl-btn {
+    background-color: darkgreen;
+
+} */
+
+/* .container {
+    text-align: center;
+}
+
+.stars .fa-star {
+    color: darkorange;
+    font-size: 2em;
+    text-shadow: 0 0 2px red;
+    width: 2em;
+    line-height: 2em;
+    cursor: pointer; */
+/* } */
+
+/* .button {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    display: inline-block;
+    font: inherit;
+    height: auto;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+
+}
+.button:focus {
+    outline: none;
+}
+.button-inner {
+    align-items: center;
+    background: darkblue;
+    border: 2px solid transparent;
+    border-radius: 99em;
+    color: whitesmoke;
+    display: flex;
+    font-weight: 600;
+    height: 2.5em;
+    min-width: 2.5em;
+    padding: 0 1em;
+    position: relative;
+    width: 100%;
+
+}
+.badge {
+    align-items: center;
+    background: crimson;
+    border: 2px solid white;
+    border-radius: 99em;
+    display: flex;
+    font-size: 0.7em;
+    font-weight: 600;
+    height: 1.44em;
+    justify-content: center;
+    line-height: 1;
+    min-width: 1.44em;
+    position: absolute;
+    right: -2px ;
+    top: -2px;
+    color: white;
+} */ */
