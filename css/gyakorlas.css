@@ -173,3 +173,357 @@ span {
     color: white;
 } 
 
+/* /Background image/ */
+/* body {
+    margin-right: 200px;
+    background-color: lavenderblush;
+    background-image: url("https://www.w3schools.com/css/img_tree.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top; */}
+
+/* Szinek atmenettel */
+
+/* i {
+    margin: 50px;
+}
+
+.icon-blue {
+    background-image: linear-gradient (45deg, #135f4e 0%, #669933 100%) ;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.icon-orange {
+    background-image: linear-gradient (red 10%, yellow 80%, white) ;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+} */
+
+/* Arnyekok */
+/* 
+div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(red, green, blue) ;
+    text-align: center;
+
+}
+div.container {
+    padding: 10px;
+   font-size: 2em;
+    
+}
+
+div.container p{
+    text-shadow: 2px 2px 3px rgba(255, 0, 0);
+} */
+
+/* Betu hatasok */
+
+/* .overflow1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.overflow2 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p.wrap {
+    
+    width: 11em;
+    border: 1px solid black;
+    word-break: keep-all;
+   
+}
+p.word-break1 {
+    
+    width: 140px;
+    border: 1px solid black;
+    word-break: keep-all;
+   
+}
+p.word-break2 {
+    
+    width: 140px;
+    border: 1px solid black;
+    word-break: break-all;
+   
+}
+
+p.writing-mode1 {
+    writing-mode: horizontal-tb;
+}
+span.writing-mode-2 {
+    writing-mode: vertical-rl;
+}
+p.writing-mode-2 {
+    writing-mode: vertical-lr;
+} */
+
+
+
+
+
+/* 2D transform*/
+/* div::not(.container) {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+}
+.translate {
+-ms-transform: translate(50px 10px);
+transform: translate(50px 10px);
+margin: 50px 0 ;
+
+}
+
+.rotate {
+    -ms-transform: rotate(20deg);
+transform: translate(20deg);
+margin: 50px 0 ;
+}
+.scale {
+    -ms-transform: scale(2, 1.5);
+transform: scale(2, 1.5);
+margin: 50px 0 ;
+}
+.matrix {
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0);
+transform: matrix(1, -0.3, 0, 1, 0, 0);
+margin: 50px 0 ;
+} */
+
+
+/* 3D transform */
+
+
+/* Transitions */
+/* 
+.box.end{
+    transform: translate(0, 100px); rotate(180deg) scale(0.65, 0.65);
+    
+}
+
+#smooth {
+    transition: all 1s ease-in-out ;
+} */
+
+/* Animaciok */
+
+/* #animated_div {
+    width: 70px;
+    height: 47px;
+    background-color: chartreuse;
+    color: cornsilk;
+    position: relative;
+    padding: 10px ;
+    border-radius: 5px;
+    animation: animated_div 5s infinite;
+}
+@keyframes animated_div {
+    0%{
+        left: 0px;
+        transform: rotate(0deg);
+    }
+25% {
+        transform: rotate(20deg);
+    left: 0px;
+    }
+    50% {
+        transform: rotate(0deg);
+        left: 500px;
+    }
+    70% {
+        transform: rotate(0deg);
+        left: 500px;
+        background-color: lightcoral;
+    }
+    100% { 
+        transform: rotate(360deg);
+        left: 0px;
+    }
+} */
+
+/* Responsiv */
+
+/*for mobile phones  */
+/* [class*="col-"] {
+    width: 100%;
+} */
+
+/* for tablets */
+/* @media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;} */
+}
+
+/* for PC  */
+/* @media only screen and (min-width: 788px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+} */
+
+/* Flexbox */
+/* 
+ .flex-container { 
+    /* display: flex;
+    /* flex-wrap: nowrap; */
+    /* background-color: dodgerblue;
+} */ 
+
+/* .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+} */
+
+/* Flexbox weboldal*/
+/* @media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+} */
+
+/* Grid container */
+/* 
+.grid-container {
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     grid-gap: 10px;
+     background-color: dodgerblue;
+     padding: 10px;
+} 
+
+ .grid-container > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+
+} 
+
+
+
+.item1 { grid-area: header;}
+.item2 { grid-area: menu;}
+.item3 { grid-area: main;}
+.item4 { grid-area: right;}
+.item5 { grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    ' menu main main main right right'
+    'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+
+/* Mobile first */
+
+.col-1
+.col-sm-2
+
+
+var() function
+
+:root {
+    --main-bg-color: coral;
+    --main-txt-color: blue;
+    --main-padding: 15px;
+}
+
+#div1 {
+background-color: var(--main-bg-color);
+color: var(--main-txt-color);
+padding: var(--main-padding);
+
+}
+#div2 {
+background-color: var(--main-bg-color);
+color: var(--main-txt-color);
+padding: var(--main-padding);
+
+}
+#div3 {
+background-color: var(--main-bg-color);
+color: var(--main-txt-color);
+padding: var(--main-padding);
+
+}
+
+Import
+
+@import 'mobile.css' screen and (max-width: 768 px);
+@import 'normal.css' screen and (min-width: 769 px)
+
+#div1 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+    
+    }
+    #div2 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+    
+    }
+    #div3 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+    
+    }
+
+    Bem
+
+    Block element modifier
+
+    .product__photo--center {
+        
+    }

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/gyakorlas.css">
 </head>
-<body>
+<body> -->
     <!-- <div class="static">This div element</div>
     <div class="relative">This div element</div>
     <div class="fixed">This div element</div>
@@ -31,8 +31,90 @@
             <label for="cb1" class="tgl-btn"></label>
         </li>
     </ul> -->
+<!-- 
+    <picture>
+        <source srcset="">
+            <img src="" alt="">
+    </picture>
 
-    
 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        :root {
+           --blue: #125863;
+           --default-font-size: 16px;
+           --container-width: 1280px
+           
+        }
+.section {
+    padding: 1rem;
+
+}
+.section--yellow{
+    background-color: #125863;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    flex: 0 1 auto;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.gallery__item {
+position: relative;
+padding: 1rem;
+flex: 0 0 100%;
+max-width: 100%;
+}
+@media(min-width: 480px;) {
+    .gallery__item {
+        flex: 0 0 50%;
+       max-width: 50%;   
+    }
+}
+@media(min-width: 720px;) {
+    .gallery__item {
+        flex: 0 0 25%;
+       max-width: 25%;   
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <section class="section section--yellow">
+        <div class="gallery">
+            <div class="gallery__item" >
+                <div class="gallery__item" >Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Iusto amet dicta, dolorem fugiat culpa quae ipsam ut?
+                      Sequi adipisci debitis cum ab repellendus, vel laboriosam iste
+                       molestias corrupti doloribus saepe.
+                       <img src="" alt="" class="gallery__image">
+                    </div>
+                       
+                <div class="gallery__item" v>Assumenda ipsam repellendus minus delectus.
+                     Dicta exercitationem nam facilis voluptatem itaque! Vel adipisci voluptate
+                      sint quasi asperiores. Doloribus necessitatibus repudiandae quas molestiae,
+                       voluptatem laudantium maiores sint reiciendis beatae! Obcaecati, rem!</div>
+                <div class="gallery__item" >Iste aliquam atque veritatis nihil nostrum
+                     unde magnam amet consectetur optio reiciendis nisi facilis ratione molestiae,
+                      vel expedita consequatur vitae blanditiis. Porro, veniam. Magnam optio iusto
+                       dolor nostrum cumque quas.</div>
+            <div class="gallery__item" >
+        </div>
+    </section>
 </body>
 </html>
